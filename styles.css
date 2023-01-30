@@ -9,5 +9,12 @@ html{
 }
 
 header{
-  background-color: aquamarine;
+  padding: 2rem 5rem;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
