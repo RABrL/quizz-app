@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Quiz App</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Quiz App</title>
 </head>
 <body>
+  <div class="container">
     <header>
-        <nav>
-            <img src="./assets/quizz_logo.svg" alt="">
-            <h1>Quizz Javascript</h1>
-        </nav>
+      <img src="./assets/quiz_logo.svg" alt="">
+      <h1>Quizz Javascript</h1>
     </header>
-    <main>
-        <div>
-            <button>Empezar quizz</button>
-        </div>
+    <main id="quizz">
+      <div id="question" class="question"></div>
+      <div id="choices" class="choices"></div>
     </main>
     <footer>
-        
+      <p id="progress" ></p>
     </footer>
+  </div>
+  <script src="app.js" type="module"></script>
 </body>
 </html>

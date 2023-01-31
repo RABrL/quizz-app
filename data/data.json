@@ -1,0 +1,42 @@
+{
+    "questions": [
+        {
+            "id":1,
+            "text": "Inside which HTML element do we put the JavaScript?",
+            "choices": ["<javascript>","<script>","<scripting>","<js>"],
+            "answer": "<script>"
+        },
+        {
+            "id":2,
+            "text": "What is the correct JavaScript syntax to change the content of the HTML element below?\n\n<p id=\"demo\">This is a demonstration.</p>",
+            "choices": ["document.getElementById(\"demo\").innerHTML = \"Hello World!\";",
+              "document.getElement(\"p\").innerHTML = \"Hello World!\";",
+              "#demo.innerHTML = \"Hello World!\";",
+              "document.getElementByName(\"p\").innerHTML = \"Hello World!\";"
+            ],
+            "answer": "document.getElementById(\"demo\").innerHTML = \"Hello World!\";"
+        },
+        {
+            "id":3,
+            "text": "How do you create a function in JavaScript?",
+            "choices": ["function myFunction()",
+              "function:myFunction()",
+              "function = myfunction()",
+              "const function = myFunction()"
+            ],
+            "answer": "function myFunction()"
+        },
+        {
+            "id":4,
+            "text": "How to write an IF statement in JavaScript?",
+            "choices": ["if i = 5","if (i == 5)","if i == 5 then","if (i = 5) then"],
+            "answer": "if (i == 5)"
+        },
+        {
+            "id":5,
+            "text": "How to write an IF statement for executing some code if \"i\" is NOT equal to 5?",
+            "choices": ["if i != 5 then", "if (i <> 5)", "if (i != 5)", "if i <> 5"],
+            "answer": "if (i != 5)"
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;800&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+header{
+  padding: 2rem 5rem;
+}
+
+body{
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background-color: #cfcfcf;
+  font-family: 'Roboto Slab', serif;
+}
+
+div.container{
+  padding: 4rem;
+  background-color: aliceblue;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.23);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+h1 {
+  padding: .2rem 0;
+  font-size: 3.6rem;
+  color: #57636e;
+}
+
+h2{
+  font-size: 2.6rem;
+  color: #34a3a3;
+}
+
+main{
+  padding: 2rem 0;
+  border-bottom: .2rem solid #34a3a3;
+  border-top: .2rem solid #34a3a3;
+}
+
+#question {
+  font-size: 2.6rem;
+  color: #5a6772;
+  margin-bottom: 2rem;
+}
+
+#choices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.button{
+  background-color: #34a3a3;
+  color: white;
+  width: 30rem;
+  word-break: break-all;
+  border-radius: .5rem;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  outline: 0;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #57636e;
+}
+
+#progress{
+  font-size: 2rem;
+  padding-top: 1.8rem;
+}
