@@ -4,8 +4,7 @@ export const newQuestions = await fetch('./data/data.json')
   .then(res => res.json())
   .then(data => {
     const { questions } = data
-    return questions.map(question => {
-      const { id, text, choices, answer } = question
+    return questions.map({ id, text, choices, answer } => {
       return new Question(id, text, choices, answer)
     })
   })
